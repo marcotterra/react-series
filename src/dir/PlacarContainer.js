@@ -45,7 +45,7 @@ export default class PlacarContainer extends React.Component {
                     <h3>Visitante</h3>
                     <Time nome={visitante.nome} 
                           gols={this.state.gols_visitante}
-                          marcarGolVisitante={this.marcarGolVisitante.bind(this)} />
+                          marcarGol={this.marcarGolVisitante.bind(this)} />
                 </div>
 
                 <div style={{clear: "both"}}></div>
